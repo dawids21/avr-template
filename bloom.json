@@ -1,0 +1,24 @@
+{
+  "environments": {
+    "default": {
+      "debugTool": {
+        "name": "xplained-mini",
+        "releasePostDebugSession": true
+      },
+      "target": {
+        "name": "atmega168pb",
+        "physicalInterface": "debug-wire",
+        "disableDebugWirePreDisconnect": false,
+        "updateDwenFuseBit": true
+      },
+      "debugServer": {
+        "name": "avr-gdb-rsp",
+        "ipAddress": "127.0.0.1",
+        "port": "1442"
+      }
+    }
+  },
+  "insight": {
+    "enabled": true
+  }
+}
